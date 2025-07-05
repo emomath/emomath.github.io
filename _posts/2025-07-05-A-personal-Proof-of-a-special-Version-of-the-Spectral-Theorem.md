@@ -5,9 +5,10 @@ date:   2025-07-05 16:57:03 +0200
 categories: jekyll update
 ---
 
-Let $A$ be as self-adjoint endomorphism over the finitely dimensional unitary vector space $V$. Then $A$ is orthogonally diagonalizable.
+##Theorem
+> Let $A$ be as self-adjoint endomorphism over the finitely dimensional unitary vector space $V$. Then $A$ is orthogonally diagonalizable.
 
-Sketch of proof: 
+##Sketch of proof: 
 Our central argument will be that for any eigenvalue of $A$ the algebraic multiplicity will be equal to the geometric multiplicity of the eigenvalue. From this it follows that $A$ has a basis of eigenvalues, since the degree of the characteristic polynomial of $A$ is equal to the dimension of V. We proceed in the argument as follows:
 1. All eigenvalues of $A$ are real. 
 2. It suffices to show that the algebraic multiplicity of $0$ over $A - \lambda I$ is equal to the geometric multiplicity of the eigen space of $0$ over $A - \lambda I$. This implies the same for $\lambda$ over $A$.
@@ -15,7 +16,7 @@ Our central argument will be that for any eigenvalue of $A$ the algebraic multip
 4. The algebraic multiplicity of $0$ over $A - \lambda I$ is equal to the geometric multiplicity of the eigen space of $0$ over $A - \lambda I$.
 5. Eigenvectors are pairwise orthogonal
 
-Proof:
+##Proof:
 Let $n =$ dimension of V.
 
 1: Let $\lambda$ be an eigenvalue of $A$. 
