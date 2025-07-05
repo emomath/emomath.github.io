@@ -18,8 +18,8 @@ Our central argument will be that for any eigenvalue of $A$ the algebraic multip
 Proof:
 Let $n =$ dimension of V.
 
-1: Let $\lambda$ be an eigenvalue of $A$. $$\lambda \langle x,x \rangle = \langle Ax
-,x \rangle = \langle x,Ax \rangle = \overline \lambda \langle x,x \rangle$$
+1: Let $\lambda$ be an eigenvalue of $A$. \[\lambda \langle x,x \rangle = \langle Ax
+,x \rangle = \langle x,Ax \rangle = \overline \lambda \langle x,x \rangle\]
 From this it follows that $\lambda$ is real. 
 
 2: We want to show that the algebraic/geometric multiplicity of $0$ over $A - \lambda I$ is equal to the algebraic/geometric multiplicity of $\lambda$ over $A$ respectively. 
