@@ -5,10 +5,10 @@ date:   2025-07-05 16:57:03 +0200
 categories: jekyll update
 ---
 
-##Theorem
+## Theorem
 > Let $A$ be as self-adjoint endomorphism over the finitely dimensional unitary vector space $V$. Then $A$ is orthogonally diagonalizable.
 
-##Sketch of proof: 
+## Sketch of proof: 
 Our central argument will be that for any eigenvalue of $A$ the algebraic multiplicity will be equal to the geometric multiplicity of the eigenvalue. From this it follows that $A$ has a basis of eigenvalues, since the degree of the characteristic polynomial of $A$ is equal to the dimension of V. We proceed in the argument as follows:
 1. All eigenvalues of $A$ are real. 
 2. It suffices to show that the algebraic multiplicity of $0$ over $A - \lambda I$ is equal to the geometric multiplicity of the eigen space of $0$ over $A - \lambda I$. This implies the same for $\lambda$ over $A$.
@@ -16,7 +16,7 @@ Our central argument will be that for any eigenvalue of $A$ the algebraic multip
 4. The algebraic multiplicity of $0$ over $A - \lambda I$ is equal to the geometric multiplicity of the eigen space of $0$ over $A - \lambda I$.
 5. Eigenvectors are pairwise orthogonal
 
-##Proof:
+## Proof:
 Let $n =$ dimension of V.
 
 1: Let $\lambda$ be an eigenvalue of $A$. 
@@ -46,10 +46,13 @@ $$
 \langle (A-\lambda I)x,y \rangle = \langle Ax - \lambda x,y \rangle = \langle Ax,y \rangle - \langle \lambda x,y \rangle = \langle x,Ay \rangle - \langle x,\lambda y \rangle= \langle x,(A-\lambda I)y \rangle 
 $$
 
-Remark: The third equation sign is only true because $\lambda$ is real, which we proved in the first step. 
+> Remark: The third equation sign is only true because $\lambda$ is real, which we proved in the first step. 
 
 4: We want to show that the algebraic multiplicity of $0$ over $A - \lambda I$ is the same as the geometric multiplicity of $0$ over $A - \lambda I$. We proceed by contradiction: 
-Assume that the algebraic multiplicity of $0$ is bigger than the geometric multiplicity. The Caley-Hamilton Theorem This means that the generalised eigen space of $0$ is bigger than the eigen space of 0. From this it follows that we can pick $w \in V$ such that $w \not \in  \text{Eig}(0, A - \lambda I)$ and $Aw = v$ with $v \not = 0$. This is true since if $(A-\lambda I)^{r}(x) = 0$ then we pick  $(A-\lambda I)^{r-2}(x)$ as $w$. 
+
+> Remark: We only have to check the case that the algebraic multiplicity of $\lambda$ is bigger than the geometric multiplicity. This is the case because we can change the canonical basis to a basis of all eigenvectors with the respectiv eigenvalue ensuring we get that the factor $(x - \lambda)^{\text{dim(Eig}(A,\lambda)}$ divides the characteristic polynomial. 
+
+Assume that the algebraic multiplicity of $0$ is bigger than the geometric multiplicity. This means that the generalised eigen space of $0$ is bigger than the eigen space of 0. From this it follows that we can pick $w \in V$ such that $w \not \in  \text{Eig}(0, A - \lambda I)$ and $Aw = v$ with $v \not = 0$. This is true since if $(A-\lambda I)^{r}(x) = 0$ then we pick  $(A-\lambda I)^{r-2}(x)$ as $w$. 
 
 Inspect the following: 
 
@@ -59,7 +62,7 @@ $$
 
 This is a contradiction to  $v \not = 0$. This means our assumption that the generalised eigen space was bigger than the eigen space of $(A- \lambda I)$ has to be wrong. So the algebraic multiplicity has to equal the geometric multiplicity. By the second step we know that this also holds true for $\lambda$ thus proving that $A$ is diagonalizable.
 
-Remark: The argument only works, because $(A - \lambda I)$ is a self-adjoint endomorphism. We proved this in the third step. 
+> Remark: The argument only works, because $(A - \lambda I)$ is a self-adjoint endomorphism. We proved this in the third step. 
 
 5: It remains to be shown that the eigen vectors of $A$ form an orthogonal basis. Let $w,v \in V$ be two eigenvectors with $\lambda \not = \mu$ as their respective eigenvectors. 
 
