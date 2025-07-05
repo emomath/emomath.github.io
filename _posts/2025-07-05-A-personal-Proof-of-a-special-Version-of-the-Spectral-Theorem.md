@@ -30,7 +30,7 @@ From this it follows that $\lambda$ is real.
 
 2: We want to show that the algebraic/geometric multiplicity of $0$ over $A - \lambda I$ is equal to the algebraic/geometric multiplicity of $\lambda$ over $A$ respectively. 
 
-Let $\prod_{i=1}^{n}(\mu_i-y)^{\upsilon(i)}$ be the linear factor decomposition of the characteristic polynomial $\chi_A(y) = \det(A-yI)$ of $A$. 
+Let $\prod_{i=1}^{n}(\mu_i-y)^{\upsilon(i)}$ be the linear factor decomposition of the characteristic polynomial $\chi_A(y) = \det(A-yI)$ of $A$. $\upsilon(i)$ denots the algebraic multiplicity of $\mu_i$ and let $a$ denote the algebraic multiplicity of "\lambda" over $A$.
 
 $$
 \chi_{A-yI}(y) =  \det(A-\lambda I - yI) = \det(A-(\lambda+y)I) = \chi_A(\lambda + y) = \prod_{i=1}^{n}(\mu_i - \lambda - y)^{\upsilon(i)}
@@ -52,7 +52,8 @@ $$
 
 > Remark: We only have to check the case that the algebraic multiplicity of $\lambda$ is bigger than the geometric multiplicity. This is the case because we can change the canonical basis to a basis of all eigenvectors with the respectiv eigenvalue ensuring we get that the factor $(x - \lambda)^{\text{dim(Eig}(A,\lambda)}$ divides the characteristic polynomial. 
 
-Assume that the algebraic multiplicity of $0$ is bigger than the geometric multiplicity. This means that the generalised eigen space of $0$ is bigger than the eigen space of 0. From this it follows that we can pick $w \in V$ such that $w \not \in  \text{Eig}(0, A - \lambda I)$ and $Aw = v$ with $v \not = 0$. This is true since if $(A-\lambda I)^{r}(x) = 0$ then we pick  $(A-\lambda I)^{r-2}(x)$ as $w$. 
+Assume that the algebraic multiplicity of $0$ is bigger than the geometric multiplicity. Since the geometric multilicity is smaller or equal to the algebraic multiplicity for all eigenvalues by the Caley-Hamilton Theorem it follows that the generalized eigenspace of $(A -\lambda I)$ has to be bigger than the eigenspace.
+From this it follows that we can pick $w \in V$ such that $w \not \in  \text{Eig}(0, A - \lambda I)$ and $Aw = v$ with $v \not = 0$. This is true since if $(A-\lambda I)^{r}(x) = 0$ then we pick  $(A-\lambda I)^{r-2}(x)$ as $w$. 
 
 Inspect the following: 
 
