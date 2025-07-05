@@ -20,10 +20,10 @@ Let $n =$ dimension of V.
 
 1: Let $\lambda$ be an eigenvalue of $A$. 
 
-\[ 
+$$
 \lambda \langle x,x \rangle = \langle Ax
 ,x \rangle = \langle x,Ax \rangle = \overline \lambda \langle x,x \rangle 
-\]
+$$
 
 From this it follows that $\lambda$ is real. 
 
