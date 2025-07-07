@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First chunk-of Number Theory Exercises
+title: First chunk of Number Theory Exercises
 date: 2025-07-05 16:57:03 +0200
 categories: jekyll update
 ---
