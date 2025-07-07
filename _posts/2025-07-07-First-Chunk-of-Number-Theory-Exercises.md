@@ -21,7 +21,7 @@ $\square$
 
 ## Exercise 5
 
-> Show that for all $a$ and $b \in \mathbb{Z}$ and for all $n,m \in \mathbb{N}$: $m|n \implies (a^m-b^m) \mid (a^n - b^n)$ 
+> Show that for all $a$ and $b \in \mathbb{Z}$ and for all $n,m \in \mathbb{N}: m|n \implies (a^m-b^m) \mid (a^n - b^n)$ 
 
 ### Proof
 Let $m|n$ for $n,m \in \mathbb{N}$. Then there exists $d \in \mathbb{N}$ such that $md = n$. We write $(a^n - b^n) = ((a^m)^d - (b^m)^d)$. Now if we substitut $x = a^m, y= b^m \in \mathbb{N}$ by the first exercise we get that $(x-y) \mid (x^d - y^d) \implies (a^m-b^m) \mid (a^n - b^n)$. $\square$ 
