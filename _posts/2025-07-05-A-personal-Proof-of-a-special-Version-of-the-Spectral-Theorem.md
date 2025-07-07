@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A personal Proof of a special Version of the Spectral Theorem"
-date:   2025-07-05 16:57:03 +0200
+title: A personal Proof of a special Version of the Spectral Theorem
+date: 2025-07-05 16:57:03 +0200
 categories: jekyll update
 ---
 
