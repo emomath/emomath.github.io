@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-07-Test.md",
+                "file": "2025-07-07-First-Chunk-of-Number-Theory-Exercises.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-07-Test"
+              "title": "2025-07-07-First-Chunk-of-Number-Theory-Exercises"
             }
           }
         ],
@@ -184,6 +184,6 @@
   "active": "342f521f03b212fd",
   "lastOpenFiles": [
     "2025-07-05-A-personal-Proof-of-a-special-Version-of-the-Spectral-Theorem.md",
-    "2025-07-07-Test.md"
+    "2025-07-07-First-Chunk-of-Number-Theory-Exercises.md"
   ]
 }
