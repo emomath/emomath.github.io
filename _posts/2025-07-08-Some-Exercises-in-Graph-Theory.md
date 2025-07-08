@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Exercises in Graph Theory
-date: 2025-08-05 16:57:03 +0200
+date: 2025-07-08 16:57:03 +0200
 categories: jekyll update
 ---
 ## Übungsaufgabe 1

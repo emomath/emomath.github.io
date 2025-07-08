@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-07-Some-Exercises-in-Graph-Theory.md",
+                "file": "2025-07-08-Some-Exercises-in-Graph-Theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-07-Some-Exercises-in-Graph-Theory"
+              "title": "2025-07-08-Some-Exercises-in-Graph-Theory"
             }
           }
         ],
@@ -198,7 +198,7 @@
   "active": "891958d982e64365",
   "lastOpenFiles": [
     "2025-07-07-First-Chunk-of-Number-Theory-Exercises.md",
-    "2025-07-07-Some-Exercises-in-Graph-Theory.md",
+    "2025-07-08-Some-Exercises-in-Graph-Theory.md",
     "2025-07-05-A-personal-Proof-of-a-special-Version-of-the-Spectral-Theorem.md"
   ]
 }
