@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 ## Übungsaufgabe 1
 > Zeigen Sie: Für jede Zusammenhangskomponente eines einfachen (endlichen) Graphen mit Maximalgrad 2 (d.h. für alle $v \in V(G)$ gilt $\deg(v) \leq 2$) ist entweder ein Weg oder ein Kreis
+
 ### Beweis
 Sei $m = \min\{\deg(v): v\ \in V\}$. Wir nennen die Zusammenhangskomponente ab nun $T$. Es gibt 3 Fälle:
 
