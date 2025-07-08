@@ -8,13 +8,13 @@ categories: jekyll update
 > Zeigen Sie: Für jede Zusammenhangskomponente eines einfachen (endlichen) Graphen mit Maximalgrad 2 (d.h. für alle $v \in V(G)$ gilt $\deg(v) \leq 2$) ist entweder ein Weg oder ein Kreis
 
 ### Beweis
-Sei $m = \min\{\deg(v): v\ \in V\}$. Wir nennen die Zusammenhangskomponente ab nun $T$. Es gibt 3 Fälle:
+Sei $m = \min\{ \deg(v): v\ \in V \}$. Wir nennen die Zusammenhangskomponente ab nun $T$. Es gibt 3 Fälle:
 
 Fall 1: $m = 0$
 Dann $T$  ein einziger Knoten und das ist trivialerweise ein Weg. 
 
 Fall 2: $m \geq 1$
-Wir wählen einen Knoten $v_0$ aus $T$. Nun wählen wir $v_1 \in T$, so dass $\{v_0, v_1\} \in E(T)$. Wir geben einen Algorithmus in pseudo code an:
+Wir wählen einen Knoten $v_0$ aus $T$. Nun wählen wir $v_1 \in T$, so dass $\{ v_0, v_1 \} \in E(T)$. Wir geben einen Algorithmus in pseudo code an:
 
 ```
 new_graph = (V={v_0,v_1}, E={{v_0,v_1}})
@@ -42,6 +42,6 @@ Daraus folgt, dass der eindeutig erzeugte Teilgraph, der immer ein Kreis oder ei
 > Sei $\bar G = \binom{V}{2} \setminus G(E)$. Zeigen Sie: Für alle Graphen $G$ gilt: $G$ oder $\bar G$ ist zusammenhängend. 
 
 ### Beweis
-Sei $G$ ein Graph. Um ein mathematisches "oder" zu beweisen nehmen wir an, dass $G$nicht zusammenhängend ist. $G$ besteht also aus $k$ zusammenhangskomponenten $T_1,...,T_k$. Um zu zeigen, dass $\bar G$ zusammenhängend ist, müssen wir zeigen, dass je zwei Knoten durch einen Weg verbunden sind. 
+Sei $G$ ein Graph. Um ein mathematisches "oder" zu beweisen nehmen wir an, dass $G$ nicht zusammenhängend ist. $G$ besteht also aus $k$ Zusammenhangskomponenten $T_1,...,T_k$. Um zu zeigen, dass $\bar G$ zusammenhängend ist, müssen wir zeigen, dass je zwei Knoten durch einen Weg verbunden sind. 
 
-Sei $t_i \in T_i, u_j \in T_j$. Nach Konstruktion ist $\{t_i, u_j\} \in \bar G$ für alle $i \neq j \in \{1,...,k\}$. Nehmen wir nun $a,b \in T_i$, dann ist $\{a, u_j\},\{b, u_j\} \in \bar G$ und daraus folgt, dass es einen Weg zwischen $a$ und $b$ gibt, heißt alle Knoten sind durch Kanten verbunden. 
+Sei $t_i \in T_i, u_j \in T_j$. Nach Konstruktion ist $\{ t_i, u_j \} \in \bar G$ für alle $i \neq j \in \{1,...,k\}$. Nehmen wir nun $a,b \in T_i$, dann ist $\{ a, u_j \},\{ b, u_j \} \in \bar G$ und daraus folgt, dass es einen Weg zwischen $a$ und $b$ gibt, heißt alle Knoten sind durch Kanten verbunden. 
